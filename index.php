@@ -1,5 +1,8 @@
 <?php 
 include_once __DIR__ . "/classes/Product.php";
+include_once __DIR__ . "/classes/Size.php";
+
+$cuccia = new Product("cuccia", "cu1234", "cuccia per cani di media dimensioni", "$30,12", 4.8, "ottimo rapporto qualità prezzo",  );
 
 ?>
 

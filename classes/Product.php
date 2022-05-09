@@ -5,7 +5,7 @@ class Product{
     // protected string $immage;
     protected string $productId;
     protected string $description;
-    protected float $price;
+    protected string $price;
     protected float $vote;
     protected string $reviews;
     protected float $size;
