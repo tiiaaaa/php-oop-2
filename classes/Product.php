@@ -1,5 +1,5 @@
 <?php 
-include_once __DIR__ . "/classes/Size.php";
+include_once __DIR__ . "/Size.php";
 
 class Product{
     protected  $name;
