@@ -1,18 +1,19 @@
 <?php 
+include_once __DIR__ . "/classes/Size.php";
 
 class Product{
-    protected string $name;
-    // protected string $immage;
-    protected string $productId;
-    protected string $description;
-    protected string $price;
-    protected float $vote;
-    protected string $reviews;
-    protected float $size;
-    protected string $color;
-    protected bool $disponibility;
+    protected  $name;
+    protected  $immage;
+    protected  $productId;
+    protected  $description;
+    protected  $price;
+    protected  $vote;
+    protected  $reviews;
+    protected  $size;
+    protected  $color;
+    protected  $disponibility;
 
-    function __construct($_name, $_productId, $_description, $_price, $_vote, $_reviews, $_size, $_color, $_disponibility){
+    function __construct($_name, $_productId, $_description, $_price, $_vote, $_reviews, Size $_size, $_color, $_disponibility = false){
         $this->name = $_name;
         $this->productId = $_productId;
         $this->description = $_description;

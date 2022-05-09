@@ -2,7 +2,9 @@
 include_once __DIR__ . "/classes/Product.php";
 include_once __DIR__ . "/classes/Size.php";
 
-$cuccia = new Product("cuccia", "cu1234", "cuccia per cani di media dimensioni", "$30,12", 4.8, "ottimo rapporto qualità prezzo",  );
+$cuccia = new Product("cuccia", "https://www.miglioridea.it/wp-content/uploads/2017/06/cucce-per-cani-esterno-baita.jpg","cu1234", "cuccia per cani di media dimensioni", "$30.12", 4.8, "ottimo rapporto qualità prezzo", new Size(82, 72, 85), "brown", true );
+
+var_dump($cuccia);
 
 ?>
 
