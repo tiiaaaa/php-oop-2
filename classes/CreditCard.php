@@ -8,8 +8,8 @@ class CreditCard{
 
     function __construct($_number, $_expirationDate, $_balance){
         $this->number = $_number;
-        $this->number = $_expirationDate;
-        $this->number = $_balance;
+        $this->expirationDate = $_expirationDate;
+        $this->balance = $_balance;
     }
 
     /**
